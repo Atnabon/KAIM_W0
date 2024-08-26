@@ -56,3 +56,49 @@
   - Box Plots
   - Scatter Plots
   - Data Cleaning
+
+
+  ## Task 2: Dashboard Development Using Streamlit
+### Tasks:
+- Designing and developing a dashboard using Streamlit to visualize data insights.
+- Integrating Python scripts to fetch and process data dynamically.
+- Implementing interactive features (e.g., sliders, buttons) to allow users to customize visualizations.
+- Deploying the Streamlit dashboard to Streamlit Community Cloud.
+
+### KPIs:
+- Dashboard Usability
+- Interactive Elements
+- Visual Appeal
+- Deployment Success
+
+### Suggested Folder Structure:
+<pre>
+├── .streamlit
+│ └── config.toml
+├── .vscode
+│ └── settings.json
+├── .github
+│ └── workflows
+│ ├── unittests.yml
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── notebooks
+│ ├── init.py
+│ └── README.md
+├── tests
+│ ├── init.py
+├── app
+│ ├── init.py
+│ ├── main.py # main Streamlit application script
+│ ├── utils.py # utility functions for data processing and visualization
+└── scripts
+├── init.py
+└── README.md
+</pre>
+### Minimum Essential To Do:
+- Merge the necessary branches from task-1 into the main branch using a Pull Request (PR).
+- Create at least one new branch called "dashboard-dev" for the ongoing development of the dashboard.
+- Commit your work with a descriptive commit message.
+- Design and develop the Streamlit dashboard to visualize the dataset with interactive elements.
+- Document the development process and usage instructions in the README.md file.
